@@ -58,12 +58,12 @@ def entropy(data):
 #info gain is basically from split child nodes and parent node
 #left and right is the split of the node
 def info_gain(left, right, current_uncertainty):
-    p_T = len(left) / (len(left) + len(right))
-    p_F = 1 - p_T
+    left_node = len(left) / (len(left) + len(right))
+    right_node = 1 - left_node
 
     # information gain
-    SA = current_uncertainty - p_T * entropy(left) - p_F * entropy(right)
-    return SA
+    gain = current_uncertainty - left_node * entropy(left) - right_node * entropy(right)
+    return gain
 
 
 
