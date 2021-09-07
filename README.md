@@ -1,4 +1,5 @@
 # DecisionTree
+- :evergreen_tree: implementation of decision tree  from scratch
 Classic Pacman arcade game as developed at UC Berkeley (http://ai.berkeley.edu).
 
 The following functions and classes define methods necessary for building a decision tree classifier, then 
