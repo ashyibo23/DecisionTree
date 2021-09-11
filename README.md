@@ -1,5 +1,5 @@
 # DecisionTree
-- :evergreen_tree: implementation of decision tree classifier from scratch.
+- :evergreen_tree: implementation of decision tree classifier from scratch to pick an action in a pacman environment. 
 
 - Classic Pacman arcade game as developed at UC Berkeley (http://ai.berkeley.edu).
 
